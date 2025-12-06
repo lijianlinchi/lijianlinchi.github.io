@@ -246,4 +246,74 @@
   } else {
     window.loadOtherComment = loadGiscus
   }
-})()</script></div><script async data-pjax src="/"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章..." type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.2"></script></div></div></body></html>
+})()</script></div><div id="global-music-player"></div><script>
+  (() => {
+    // 等待 APlayer 加载完成
+    const initGlobalPlayer = () => {
+      if (typeof APlayer === 'undefined') {
+        setTimeout(initGlobalPlayer, 100);
+        return;
+      }
+      
+      // 创建全局固定播放器
+      const globalPlayer = new APlayer({
+        container: document.getElementById('global-music-player'),
+        fixed: true,  // 固定在页面底部
+        mini: false,  // 不显示迷你模式
+        autoplay: false,  // 不自动播放
+        theme: '#49b1f5',  // 主题色
+        loop: 'all',  // 循环播放
+        order: 'list',  // 顺序播放
+        preload: 'auto',  // 预加载
+        volume: 0.7,  // 音量
+        mutex: true,  // 互斥，同时只能播放一个
+        listFolded: false,  // 列表不折叠
+        listMaxHeight: '90px',  // 列表最大高度
+        lrcType: 0,  // 不显示歌词
+        audio: [
+          {
+            name: '起风了',
+            artist: '买辣椒也用券',
+            url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+            cover: 'https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=起风了'
+          },
+          {
+            name: '海阔天空',
+            artist: 'Beyond',
+            url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+            cover: 'https://via.placeholder.com/300x300/E74C3C/FFFFFF?text=海阔天空'
+          },
+          {
+            name: '夜曲',
+            artist: '周杰伦',
+            url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+            cover: 'https://via.placeholder.com/300x300/27AE60/FFFFFF?text=夜曲'
+          },
+          {
+            name: '稻香',
+            artist: '周杰伦',
+            url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+            cover: 'https://via.placeholder.com/300x300/F39C12/FFFFFF?text=稻香'
+          },
+          {
+            name: '晴天',
+            artist: '周杰伦',
+            url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
+            cover: 'https://via.placeholder.com/300x300/9B59B6/FFFFFF?text=晴天'
+          }
+        ]
+      });
+      
+      // 保存到全局变量
+      window.globalMusicPlayer = globalPlayer;
+    };
+    
+    // 页面加载完成后初始化
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initGlobalPlayer);
+    } else {
+      initGlobalPlayer();
+    }
+  })();
+</script>
+<script async data-pjax src="/"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章..." type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.2"></script></div></div></body></html>
