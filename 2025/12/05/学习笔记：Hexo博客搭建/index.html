@@ -246,7 +246,60 @@
   } else {
     window.loadOtherComment = loadGiscus
   }
-})()</script></div><div id="global-music-player"></div><script>
+})()</script></div><style>
+  /* 美化全局播放器样式 */
+  #global-music-player {
+    z-index: 9999;
+  }
+  #global-music-player .aplayer {
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: all 0.3s ease;
+  }
+  #global-music-player .aplayer-mini {
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.15);
+  }
+  #global-music-player .aplayer-mini .aplayer-info {
+    border-bottom: none;
+  }
+  #global-music-player .aplayer-mini .aplayer-controller {
+    padding: 8px 15px;
+  }
+  #global-music-player .aplayer-list {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    border-radius: 12px 12px 0 0;
+    max-height: 300px;
+  }
+  #global-music-player .aplayer-list ol li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: background 0.2s;
+  }
+  #global-music-player .aplayer-list ol li:hover {
+    background: rgba(102, 126, 234, 0.1);
+  }
+  #global-music-player .aplayer-list ol li.aplayer-list-light {
+    background: rgba(102, 126, 234, 0.15);
+  }
+  /* 暗色模式适配 */
+  [data-theme="dark"] #global-music-player .aplayer-mini {
+    background: rgba(30, 30, 30, 0.95);
+  }
+  [data-theme="dark"] #global-music-player .aplayer-list {
+    background: rgba(30, 30, 30, 0.98);
+  }
+  [data-theme="dark"] #global-music-player .aplayer-list ol li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  [data-theme="dark"] #global-music-player .aplayer-list ol li:hover {
+    background: rgba(102, 126, 234, 0.2);
+  }
+</style>
+<div id="global-music-player"></div><script>
   (() => {
     // 等待 APlayer 加载完成
     const initGlobalPlayer = () => {
@@ -255,51 +308,51 @@
         return;
       }
       
-      // 创建全局固定播放器
+      // 创建全局固定播放器（迷你模式，更美观）
       const globalPlayer = new APlayer({
         container: document.getElementById('global-music-player'),
         fixed: true,  // 固定在页面底部
-        mini: false,  // 不显示迷你模式
+        mini: true,   // 迷你模式，更简洁美观
         autoplay: false,  // 不自动播放
-        theme: '#49b1f5',  // 主题色
+        theme: '#667eea',  // 渐变紫色主题
         loop: 'all',  // 循环播放
         order: 'list',  // 顺序播放
         preload: 'auto',  // 预加载
         volume: 0.7,  // 音量
         mutex: true,  // 互斥，同时只能播放一个
-        listFolded: false,  // 列表不折叠
-        listMaxHeight: '90px',  // 列表最大高度
+        listFolded: true,  // 默认折叠列表
+        listMaxHeight: '300px',  // 列表最大高度
         lrcType: 0,  // 不显示歌词
         audio: [
           {
             name: '起风了',
             artist: '买辣椒也用券',
             url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-            cover: 'https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=起风了'
+            cover: 'https://picsum.photos/300/300?random=1'
           },
           {
             name: '海阔天空',
             artist: 'Beyond',
             url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-            cover: 'https://via.placeholder.com/300x300/E74C3C/FFFFFF?text=海阔天空'
+            cover: 'https://picsum.photos/300/300?random=2'
           },
           {
             name: '夜曲',
             artist: '周杰伦',
             url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
-            cover: 'https://via.placeholder.com/300x300/27AE60/FFFFFF?text=夜曲'
+            cover: 'https://picsum.photos/300/300?random=3'
           },
           {
             name: '稻香',
             artist: '周杰伦',
             url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
-            cover: 'https://via.placeholder.com/300x300/F39C12/FFFFFF?text=稻香'
+            cover: 'https://picsum.photos/300/300?random=4'
           },
           {
             name: '晴天',
             artist: '周杰伦',
             url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
-            cover: 'https://via.placeholder.com/300x300/9B59B6/FFFFFF?text=晴天'
+            cover: 'https://picsum.photos/300/300?random=5'
           }
         ]
       });
