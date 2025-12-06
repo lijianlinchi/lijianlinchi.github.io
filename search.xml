@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/12/05/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>学习笔记：Hexo博客搭建</title>
-    <url>/2025/12/05/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AHexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Hexo-博客搭建完整指南"><a href="#Hexo-博客搭建完整指南" class="headerlink" title="Hexo 博客搭建完整指南"></a>Hexo 博客搭建完整指南</h1><p>记录 Hexo 博客从零到一的搭建过程。</p>
-<h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><ol>
-<li>安装 Node.js</li>
-<li>安装 Hexo</li>
-<li>初始化博客</li>
-<li>选择主题</li>
-<li>开始写作</li>
-</ol>
-<h2 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h2><p>搭建博客的过程虽然有些复杂，但最终的效果让人满意。通过这个过程，我学到了很多关于静态网站生成的知识。</p>
-<p>继续加油！</p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活随笔：记录美好时光</title>
-    <url>/2025/12/05/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94%EF%BC%9A%E8%AE%B0%E5%BD%95%E7%BE%8E%E5%A5%BD%E6%97%B6%E5%85%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="记录生活中的美好时光"><a href="#记录生活中的美好时光" class="headerlink" title="记录生活中的美好时光"></a>记录生活中的美好时光</h1><p>生活中有很多值得记录的瞬间，这个博客就是用来记录这些美好时光的。</p>
-<h2 id="为什么要写博客"><a href="#为什么要写博客" class="headerlink" title="为什么要写博客"></a>为什么要写博客</h2><ul>
-<li>记录成长历程</li>
-<li>分享生活感悟</li>
-<li>与朋友交流</li>
-</ul>
-<h2 id="期待"><a href="#期待" class="headerlink" title="期待"></a>期待</h2><p>希望这个博客能够陪伴我走过很长的一段路，记录下生活中的点点滴滴。</p>
-<p>加油！</p>
-]]></content>
-      <categories>
-        <category>生活记录</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的第一篇技术文章</title>
     <url>/2025/12/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="欢迎来到我的技术博客"><a href="#欢迎来到我的技术博客" class="headerlink" title="欢迎来到我的技术博客"></a>欢迎来到我的技术博客</h1><p>这是我的第一篇技术文章。在这里，我将分享我的学习心得和技术经验。</p>
@@ -83,17 +23,55 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2025/12/05/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>生活随笔：记录美好时光</title>
+    <url>/2025/12/05/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94%EF%BC%9A%E8%AE%B0%E5%BD%95%E7%BE%8E%E5%A5%BD%E6%97%B6%E5%85%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="记录生活中的美好时光"><a href="#记录生活中的美好时光" class="headerlink" title="记录生活中的美好时光"></a>记录生活中的美好时光</h1><p>生活中有很多值得记录的瞬间，这个博客就是用来记录这些美好时光的。</p>
+<h2 id="为什么要写博客"><a href="#为什么要写博客" class="headerlink" title="为什么要写博客"></a>为什么要写博客</h2><ul>
+<li>记录成长历程</li>
+<li>分享生活感悟</li>
+<li>与朋友交流</li>
+</ul>
+<h2 id="期待"><a href="#期待" class="headerlink" title="期待"></a>期待</h2><p>希望这个博客能够陪伴我走过很长的一段路，记录下生活中的点点滴滴。</p>
+<p>加油！</p>
+]]></content>
+      <categories>
+        <category>生活记录</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>音乐播放器示例</title>
     <url>/2025/12/06/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="🎵-APlayer-音乐播放器示例"><a href="#🎵-APlayer-音乐播放器示例" class="headerlink" title="🎵 APlayer 音乐播放器示例"></a>🎵 APlayer 音乐播放器示例</h1><p>这篇文章演示了如何在博客中使用 APlayer 音乐播放器。</p>
 <hr>
 <h2 id="单曲播放器示例"><a href="#单曲播放器示例" class="headerlink" title="单曲播放器示例"></a>单曲播放器示例</h2><h3 id="示例-1：基础单曲播放器"><a href="#示例-1：基础单曲播放器" class="headerlink" title="示例 1：基础单曲播放器"></a>示例 1：基础单曲播放器</h3>
-        <div id="aplayer-XObItwoX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-cfyjuibk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-XObItwoX"),
+            element: document.getElementById("aplayer-cfyjuibk"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -110,12 +88,12 @@
         </script>
 
 
-        <div id="aplayer-cLQPbRMw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-sHLnJZTa" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-cLQPbRMw"),
+            element: document.getElementById("aplayer-sHLnJZTa"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -132,12 +110,12 @@
         </script>
 
 
-        <div id="aplayer-HrSjGOQt" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-DeHMuHih" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-HrSjGOQt"),
+            element: document.getElementById("aplayer-DeHMuHih"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -165,10 +143,10 @@
 ### 示例 2：音乐播放列表
 
 
-        <div id="aplayer-vZAPBYmZ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-UTwjJkzl" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","music":[{"title":"起风了","author":"买辣椒也用券","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3","pic":"https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=起风了"},{"title":"海阔天空","author":"Beyond","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3","pic":"https://via.placeholder.com/300x300/E74C3C/FFFFFF?text=海阔天空"},{"title":"夜曲","author":"周杰伦","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3","pic":"https://via.placeholder.com/300x300/27AE60/FFFFFF?text=夜曲"},{"title":"稻香","author":"周杰伦","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3","pic":"https://via.placeholder.com/300x300/F39C12/FFFFFF?text=稻香"},{"title":"晴天","author":"周杰伦","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3","pic":"https://via.placeholder.com/300x300/9B59B6/FFFFFF?text=晴天"}]};
-				  options.element = document.getElementById("aplayer-vZAPBYmZ");
+				  options.element = document.getElementById("aplayer-UTwjJkzl");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -243,6 +221,28 @@
       <tags>
         <tag>功能演示</tag>
         <tag>APlayer</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习笔记：Hexo博客搭建</title>
+    <url>/2025/12/05/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AHexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Hexo-博客搭建完整指南"><a href="#Hexo-博客搭建完整指南" class="headerlink" title="Hexo 博客搭建完整指南"></a>Hexo 博客搭建完整指南</h1><p>记录 Hexo 博客从零到一的搭建过程。</p>
+<h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><ol>
+<li>安装 Node.js</li>
+<li>安装 Hexo</li>
+<li>初始化博客</li>
+<li>选择主题</li>
+<li>开始写作</li>
+</ol>
+<h2 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h2><p>搭建博客的过程虽然有些复杂，但最终的效果让人满意。通过这个过程，我学到了很多关于静态网站生成的知识。</p>
+<p>继续加油！</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
 </search>
