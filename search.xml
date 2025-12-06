@@ -87,23 +87,65 @@
     <url>/2025/12/06/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="🎵-APlayer-音乐播放器示例"><a href="#🎵-APlayer-音乐播放器示例" class="headerlink" title="🎵 APlayer 音乐播放器示例"></a>🎵 APlayer 音乐播放器示例</h1><p>这篇文章演示了如何在博客中使用 APlayer 音乐播放器。</p>
 <hr>
-<h2 id="单曲播放器示例"><a href="#单曲播放器示例" class="headerlink" title="单曲播放器示例"></a>单曲播放器示例</h2><h3 id="示例-1：基础单曲播放器"><a href="#示例-1：基础单曲播放器" class="headerlink" title="示例 1：基础单曲播放器"></a>示例 1：基础单曲播放器</h3><p><strong>⚠️ 重要提示</strong>：APlayer 需要音频文件的<strong>直链</strong>（.mp3、.m4a 等格式），不能使用音乐平台的页面链接。</p>
-<p><strong>测试示例</strong>（使用公开的测试音频）：</p>
-
-        <div id="aplayer-aMTIyogE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<h2 id="单曲播放器示例"><a href="#单曲播放器示例" class="headerlink" title="单曲播放器示例"></a>单曲播放器示例</h2><h3 id="示例-1：基础单曲播放器"><a href="#示例-1：基础单曲播放器" class="headerlink" title="示例 1：基础单曲播放器"></a>示例 1：基础单曲播放器</h3>
+        <div id="aplayer-SlJBMZLg" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-aMTIyogE"),
+            element: document.getElementById("aplayer-SlJBMZLg"),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
-              title: "测试音频",
-              author: "示例",
-              url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-              pic: "https://via.placeholder.com/300x300?text=Music",
+              title: "起风了",
+              author: "买辣椒也用券",
+              url: "https://music.163.com/song/media/outer/url?id=1330348068.mp3",
+              pic: "https://p1.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+
+        <div id="aplayer-GnLEDpDS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-GnLEDpDS"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "海阔天空",
+              author: "Beyond",
+              url: "https://music.163.com/song/media/outer/url?id=346576.mp3",
+              pic: "https://p1.music.126.net/8YVbS6fGxPc6W4nX5Y5Y5Q==/109951163699673355.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+
+        <div id="aplayer-PXUVhZMS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-PXUVhZMS"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "夜曲",
+              author: "周杰伦",
+              url: "https://music.163.com/song/media/outer/url?id=167827.mp3",
+              pic: "https://p1.music.126.net/xxx.jpg",
               lrc: ""
             }
           });
@@ -114,7 +156,7 @@
 **使用方法**：
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer &quot;歌曲名&quot; &quot;歌手&quot; &quot;音乐直链&quot; &quot;封面链接&quot; %&#125;</span><br></pre></td></tr></table></figure>
 
-**注意**：上面的链接是测试链接，实际使用时需要替换为真实的音频文件直链。
+**提示**：上面的音乐链接使用的是网易云音乐的直链格式，如果无法播放，请参考下面的"如何获取音乐直链"部分。
 
 ---
 
@@ -122,12 +164,11 @@
 
 ### 示例 2：音乐播放列表
 
-**测试示例**（使用公开的测试音频）：
 
-        <div id="aplayer-OiDRWoIJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-bDMAqnBC" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
-				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","music":[{"title":"测试音频 1","author":"示例","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3","pic":"https://via.placeholder.com/300x300?text=Music1"},{"title":"测试音频 2","author":"示例","url":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3","pic":"https://via.placeholder.com/300x300?text=Music2"}]};
-				  options.element = document.getElementById("aplayer-OiDRWoIJ");
+				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","music":[{"title":"起风了","author":"买辣椒也用券","url":"https://music.163.com/song/media/outer/url?id=1330348068.mp3","pic":"https://p1.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg"},{"title":"海阔天空","author":"Beyond","url":"https://music.163.com/song/media/outer/url?id=346576.mp3","pic":"https://p1.music.126.net/8YVbS6fGxPc6W4nX5Y5Y5Q==/109951163699673355.jpg"},{"title":"夜曲","author":"周杰伦","url":"https://music.163.com/song/media/outer/url?id=167827.mp3","pic":"https://p1.music.126.net/xxx.jpg"},{"title":"稻香","author":"周杰伦","url":"https://music.163.com/song/media/outer/url?id=167876.mp3","pic":"https://p1.music.126.net/xxx.jpg"},{"title":"晴天","author":"周杰伦","url":"https://music.163.com/song/media/outer/url?id=167827.mp3","pic":"https://p1.music.126.net/xxx.jpg"}]};
+				  options.element = document.getElementById("aplayer-bDMAqnBC");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
